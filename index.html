@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohis SMA 1 Seputih Mataram</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Montserrat:wght@400;600;700;900&family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="logo-container">
+            <div class="logo-frame">
+                <img src="images/logo.jpg" alt="Logo Rohis">
+            </div>
+            <div class="brand-name">Rohis SMAN 1 Seputih Mataram</div>
+        </div>
+    </header>
+
+    <!-- HERO SLIDER -->
+    <section class="hero-slider">
+        <div class="slider-wrapper" id="slider">
+            <div class="slide"><img src="images/slide-1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="images/slide-2.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="images/slide-3.jpg" alt="Slide 3"></div>
+        </div>
+        <div class="overlay">
+            <h1>Spiritualitas &<br>Intelektualitas</h1>
+        </div>
+        <div class="dots">
+            <div class="dot active" onclick="moveSlide(0)"></div>
+            <div class="dot" onclick="moveSlide(1)"></div>
+            <div class="dot" onclick="moveSlide(2)"></div>
+        </div>
+    </section>
+
+    <!-- PROFILE SECTION -->
+    <section class="profile-section">
+        <div class="text-container">
+            <span class="about-header">Overview</span>
+            <span class="first-word-header">Membangun<br>Karakter</span>
+            <p class="profile-text">
+                Rohis SMAN 1 Seputih Mataram berdedikasi membina generasi yang memadukan kedalaman spiritual dengan ketajaman nalar, melahirkan pemimpin masa depan yang inspiratif.
+            </p>
+        </div>
+
+        <div class="profile-photo-wide" id="photoReveal">
+            <img src="images/profile-photo.jpg" alt="Profile Photo">
+        </div>
+
+        <p class="footer-note">
+            "Melangkah bersama dalam ukhuwah, mengabdi untuk umat dengan integritas."
+        </p>
+    </section>
+
+    <!-- PEMBINA SECTION -->
+    <section class="pembina-section">
+        <div class="pembina-header">
+            <span class="section-tag">Kepemimpinan</span>
+            <h2 class="section-title">Dewan Pembina</h2>
+            <div class="header-line"></div>
+        </div>
+
+        <div class="pembina-scroll-container">
+            <div class="pembina-track">
+                <div class="pembina-card">
+                    <div class="pembina-photo">
+                        <img src="images/pembina-1.jpg" alt="Pembina 1">
+                    </div>
+                    <div class="pembina-info">
+                        <span class="pembina-role">Ketua Pembina</span>
+                        <h3 class="pembina-name">Nama Pembina 1, S.Pd</h3>
+                    </div>
+                </div>
+
+                <div class="pembina-card">
+                    <div class="pembina-photo">
+                        <img src="images/pembina-2.jpg" alt="Pembina 2">
+                    </div>
+                    <div class="pembina-info">
+                        <span class="pembina-role">Pembina Utama</span>
+                        <h3 class="pembina-name">Nama Pembina 2, M.Pd</h3>
+                    </div>
+                </div>
+
+                <div class="pembina-card">
+                    <div class="pembina-photo">
+                        <img src="images/pembina-3.jpg" alt="Pembina 3">
+                    </div>
+                    <div class="pembina-info">
+                        <span class="pembina-role">Anggota Pembina</span>
+                        <h3 class="pembina-name">Nama Pembina 3, S.Ag</h3>
+                    </div>
+                </div>
+
+                <div class="pembina-card">
+                    <div class="pembina-photo">
+                        <img src="images/pembina-4.jpg" alt="Pembina 4">
+                    </div>
+                    <div class="pembina-info">
+                        <span class="pembina-role">Anggota Pembina</span>
+                        <h3 class="pembina-name">Nama Pembina 4, S.Pd.I</h3>
+                    </div>
+                </div>
+
+                <div class="pembina-card">
+                    <div class="pembina-photo">
+                        <img src="images/pembina-5.jpg" alt="Pembina 5">
+                    </div>
+                    <div class="pembina-info">
+                        <span class="pembina-role">Anggota Pembina</span>
+                        <h3 class="pembina-name">Nama Pembina 5, M.A</h3>
+                    </div>
+                </div>
+
+                <div class="pembina-card">
+                    <div class="pembina-photo">
+                        <img src="images/pembina-6.jpg" alt="Pembina 6">
+                    </div>
+                    <div class="pembina-info">
+                        <span class="pembina-role">Anggota Pembina</span>
+                        <h3 class="pembina-name">Nama Pembina 6, S.Kom</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORGANISASI SECTION -->
+    <section class="organisasi-section">
+        <div class="org-main-header">
+            <span class="tagline">Struktur Kepengurusan</span>
+            <h2 class="title">Internal Organisasi</h2>
+        </div>
+
+        <!-- KETUA -->
+        <div class="role-group ketua-group">
+            <h4 class="label">Ketua Umum</h4>
+            <div class="card-standard ketua-card">
+                <div class="card-photo">
+                    <img src="images/ketua.jpg" alt="Ketua">
+                </div>
+                <div class="card-info">
+                    <h3>Nama Ketua</h3>
+                    <span>2026/2027</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIVISI -->
+        <div class="divisions-wrapper">
+            <!-- WAKIL KETUA -->
+            <div class="division-row">
+                <h4 class="label">Wakil Ketua</h4>
+                <div class="horizontal-scroll">
+                    <div class="scroll-track">
+                        <div class="card-standard"><div class="card-photo"><img src="images/wakil-1.jpg" alt="Wakil I"></div><div class="card-info"><h3>Wakil I</h3></div></div>
+                        <div class="card-standard"><div class="card-photo"><img src="images/wakil-2.jpg" alt="Wakil II"></div><div class="card-info"><h3>Wakil II</h3></div></div>
+                        <div class="card-standard"><div class="card-photo"><img src="images/wakil-3.jpg" alt="Wakil III"></div><div class="card-info"><h3>Wakil III</h3></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BENDAHARA -->
+            <div class="division-row">
+                <h4 class="label">Bendahara</h4>
+                <div class="horizontal-scroll">
+                    <div class="scroll-track">
+                        <div class="card-standard"><div class="card-photo"><img src="images/bendahara-1.jpg" alt="Bendahara I"></div><div class="card-info"><h3>Bendahara I</h3></div></div>
+                        <div class="card-standard"><div class="card-photo"><img src="images/bendahara-2.jpg" alt="Bendahara II"></div><div class="card-info"><h3>Bendahara II</h3></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KONSUMSI -->
+            <div class="division-row">
+                <h4 class="label">Divisi Konsumsi</h4>
+                <div class="horizontal-scroll">
+                    <div class="scroll-track">
+                        <div class="card-standard"><div class="card-photo"><img src="images/konsumsi-1.jpg" alt="Staff Konsumsi 1"></div><div class="card-info"><h3>Staff Konsumsi</h3></div></div>
+                        <div class="card-standard"><div class="card-photo"><img src="images/konsumsi-2.jpg" alt="Staff Konsumsi 2"></div><div class="card-info"><h3>Staff Konsumsi</h3></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MEDIA & KREATIF -->
+            <div class="division-row">
+                <h4 class="label">Media & Kreatif</h4>
+                <div class="horizontal-scroll">
+                    <div class="scroll-track">
+                        <div class="card-standard"><div class="card-photo"><img src="images/media-1.jpg" alt="Dokumentasi"></div><div class="card-info"><h3>Dokumentasi</h3></div></div>
+                        <div class="card-standard"><div class="card-photo"><img src="images/media-2.jpg" alt="Editorial"></div><div class="card-info"><h3>Editorial</h3></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIPUTAN SECTION -->
+    <section class="liputan-section">
+        <div class="liputan-header">
+            <span class="section-tag">Dokumentasi Kegiatan</span>
+            <h2 class="section-title">Hasil Liputan Kerja</h2>
+            <div class="header-line"></div>
+        </div>
+
+        <!-- PESANTREN KILAT -->
+        <div class="liputan-category">
+            <h3 class="category-name">Pesantren Kilat</h3>
+            <div class="liputan-scroll">
+                <div class="liputan-track">
+                    <div class="liputan-frame"><img src="images/sanlat-1.jpg" alt="Sanlat 1"></div>
+                    <div class="liputan-frame"><img src="images/sanlat-2.jpg" alt="Sanlat 2"></div>
+                    <div class="liputan-frame"><img src="images/sanlat-3.jpg" alt="Sanlat 3"></div>
+                    <div class="liputan-frame"><img src="images/sanlat-4.jpg" alt="Sanlat 4"></div>
+                    <div class="liputan-frame"><img src="images/sanlat-5.jpg" alt="Sanlat 5"></div>
+                    <div class="liputan-frame"><img src="images/sanlat-6.jpg" alt="Sanlat 6"></div>
+                </div>
+            </div>
+            <p class="category-description">
+                Kegiatan Pesantren Kilat merupakan agenda tahunan unggulan untuk memperdalam pemahaman agama di lingkungan sekolah. Selama kegiatan ini, siswa dibekali dengan materi akhlak, sejarah Islam, dan berbagai pengetahuan yang bermanfaat.
+            </p>
+        </div>
+
+        <!-- BERBAGI SEMBAKO -->
+        <div class="liputan-category">
+            <h3 class="category-name">Berbagi Sembako</h3>
+            <div class="liputan-scroll">
+                <div class="liputan-track">
+                    <div class="liputan-frame"><img src="images/sembako-1.jpg" alt="Sembako 1"></div>
+                    <div class="liputan-frame"><img src="images/sembako-2.jpg" alt="Sembako 2"></div>
+                    <div class="liputan-frame"><img src="images/sembako-3.jpg" alt="Sembako 3"></div>
+                    <div class="liputan-frame"><img src="images/sembako-4.jpg" alt="Sembako 4"></div>
+                    <div class="liputan-frame"><img src="images/sembako-5.jpg" alt="Sembako 5"></div>
+                    <div class="liputan-frame"><img src="images/sembako-6.jpg" alt="Sembako 6"></div>
+                </div>
+            </div>
+            <p class="category-description">
+                Aksi sosial Berbagi Sembako dilakukan sebagai bentuk solidaritas nyata Rohis terhadap warga sekolah dan masyarakat sekitar yang membutuhkan. Melalui penggalangan donasi secara kolektif, kami berusaha membantu sesama.
+            </p>
+        </div>
+
+        <!-- BERBAGI TAKJIL -->
+        <div class="liputan-category">
+            <h3 class="category-name">Berbagi Takjil</h3>
+            <div class="liputan-scroll">
+                <div class="liputan-track">
+                    <div class="liputan-frame"><img src="images/takjil-1.jpg" alt="Takjil 1"></div>
+                    <div class="liputan-frame"><img src="images/takjil-2.jpg" alt="Takjil 2"></div>
+                    <div class="liputan-frame"><img src="images/takjil-3.jpg" alt="Takjil 3"></div>
+                    <div class="liputan-frame"><img src="images/takjil-4.jpg" alt="Takjil 4"></div>
+                    <div class="liputan-frame"><img src="images/takjil-5.jpg" alt="Takjil 5"></div>
+                    <div class="liputan-frame"><img src="images/takjil-6.jpg" alt="Takjil 6"></div>
+                </div>
+            </div>
+            <p class="category-description">
+                Berbagi Takjil rutin diadakan setiap sore menjelang berbuka puasa di bulan Ramadhan. Anggota Rohis turun langsung ke jalanan sekitar SMAN 1 Seputih Mataram untuk membagikan paket berbuka yang telah disiapkan dengan penuh keberkahan.
+            </p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
